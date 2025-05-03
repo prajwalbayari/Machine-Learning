@@ -12,7 +12,7 @@ cal_df=pd.DataFrame(california_dataset.data,columns=california_dataset.feature_n
 # print(cal_df.shape) #Shape of dataframe
 
 #Impoering form csv files
-cars_df=pd.read_csv(r"C:\Users\Prajwal\Desktop\Machine Learning\Pandas\cars_sampled.csv")
+cars_df=pd.read_csv(r"C:\Users\Prajwal\Desktop\Machine Learning\Datasets\cars_sampled.csv")
 # print(type(cars_df))
 # print(cars_df.head())
 # print(cars_df.shape)
